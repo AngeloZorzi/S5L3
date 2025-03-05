@@ -1,0 +1,48 @@
+#card {
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-color: rgb(222, 161, 135);
+  margin: 1em;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+}
+button {
+  margin: 1em;
+  border-radius: 20%;
+  color: rgb(95, 55, 55);
+  background-color: rgb(246, 210, 143);
+  border: solid;
+  border-color: wheat;
+}
+#left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  padding: 2em;
+}
+span {
+  margin-top: 1em;
+  color: rgb(95, 55, 55);
+  font-weight: 600;
+}
+#honey {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(95, 55, 55);
+}
+#italian {
+  margin: 0%;
+  color: rgb(95, 55, 55);
+}
+#bott {
+  display: flex;
+  justify-content: center;
+}
